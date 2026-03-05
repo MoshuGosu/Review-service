@@ -149,3 +149,4 @@ C:\Users\henri\RiderProjects\Review-service-WebAPI\Review-service-WebAPI\obj\Deb
 C:\Users\henri\RiderProjects\Review-service-WebAPI\Review-service-WebAPI\obj\Debug\net10.0\Review-service-WebAPI.pdb
 C:\Users\henri\RiderProjects\Review-service-WebAPI\Review-service-WebAPI\obj\Debug\net10.0\Review-service-WebAPI.genruntimeconfig.cache
 C:\Users\henri\RiderProjects\Review-service-WebAPI\Review-service-WebAPI\obj\Debug\net10.0\ref\Review-service-WebAPI.dll
+C:\Users\henri\RiderProjects\Review-service-WebAPI\Review-service-WebAPI\obj\Debug\net10.0\Review-service-WebAPI.sourcelink.json
