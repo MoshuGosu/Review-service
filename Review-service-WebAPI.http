@@ -1,6 +1,6 @@
 @Review_service_WebAPI_HostAddress = http://localhost:5191
 
-GET {{Review_service_WebAPI_HostAddress}}/weatherforecast/
+GET {{Review_service_WebAPI_HostAddress}}/api/BookReviews
 Accept: application/json
 
 ###
