@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Review-service-Console-app", "Review-service-Console-app\Review-service-Console-app.csproj", "{A7932BC0-56F4-4FA8-9297-4C34E19D219F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7932BC0-56F4-4FA8-9297-4C34E19D219F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7932BC0-56F4-4FA8-9297-4C34E19D219F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7932BC0-56F4-4FA8-9297-4C34E19D219F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7932BC0-56F4-4FA8-9297-4C34E19D219F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
