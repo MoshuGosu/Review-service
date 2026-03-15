@@ -7,7 +7,16 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlite("Data Source=/home/site/wwwroot/reviews.db"));
+{
+    if (builder.Environment.IsDevelopment())
+    {
+        options.UseSqlite("Data Source=reviews.db");
+    }
+    else
+    {
+        options.UseSqlite("Data Source=/home/site/wwwroot/reviews.db");
+    }
+});
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
