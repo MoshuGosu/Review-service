@@ -20,7 +20,16 @@ public class BookReviewsController : ControllerBase
     [HttpGet]
     public async Task<ActionResult<IEnumerable<BookReview>>> GetReviews()
     {
-        return await _context.BookReviews.ToListAsync();
+        try
+        {
+            var reviews = await _context.BookReviews.ToListAsync();
+            return Ok(reviews);
+        }
+        catch (Exception ex)
+        {
+            // Logga gärna felet i verkliga projekt
+            return StatusCode(500, $"Internal server error: {ex.Message}");
+        }
     }
 
     // GET: api/BookReviews/5
