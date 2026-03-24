@@ -23,7 +23,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("ReactBookReviews", policy =>
-        policy.WithOrigins("http://localhost:5174")
+        policy.WithOrigins("http://localhost:5173")
             .AllowAnyMethod()
             .AllowAnyHeader());
 });
